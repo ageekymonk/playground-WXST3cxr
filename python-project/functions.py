@@ -1,10 +1,13 @@
-def addressbook(name, age, address=''):
-    print(f'Name: {name} Age: {age} address: {address}')
+def addressbook(firstname, lastname, age, address=''):
+    print(f'Name: {firstname} {lastname} \nAge: {age} \naddress: {address}')
 
 # How not to do it
-addressbook('Jason Bourne', 40, 'unknown')
+addressbook('Jason', 'Bourne', 40, 'unknown')
+
+print('---------------------------')
 
 # How pros do it
-addressbook(name='Jason Bourne',
+addressbook(lastname='Bourne',
+            firstname='Jason',
             age=40,
             address='unknown')
