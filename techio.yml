@@ -4,8 +4,8 @@ title : Journey to Master Python
 plan:
   - title: Journey to Master Python # Set the page title
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: How we argue with functions
+    statement: markdowns/functions.md
 
 
 # Settings for your programming projects and the associated Docker images
