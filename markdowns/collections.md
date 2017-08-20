@@ -12,7 +12,12 @@ defaultdict behaves like normal dict with one key difference. It has a factory f
 
 @[defaultdict class]({"stubs": ["collections_defaultdict.py"], "command": "python3 collections_defaultdict.py"})
 
-### Example
 One most popular example is one liner tree function. You can create a nested dict without even initialising its parents.
 
 @[defaultdict class]({"stubs": ["collections_defaultdict_tree.py"], "command": "python3 collections_defaultdict_tree.py"})
+
+## namedtuple
+
+namedtuple is a factory function to create tuple like object but can access its elements with attribute name.
+
+@[namedtuple]({"stubs": ["collections_namedtuple.py"], "command": "python3 collections_namedtuple.py"})
