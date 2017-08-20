@@ -6,7 +6,8 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: How we argue with functions
     statement: markdowns/functions.md
-
+  - title: Collections Module
+    statement: markdowns/collections.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
