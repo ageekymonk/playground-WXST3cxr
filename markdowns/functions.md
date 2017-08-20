@@ -14,9 +14,9 @@ Calling a function with keyword arguments is a better approach because it improv
 
 Sometimes you need to pass unknown number of arguments to functions. They could be plain arguments or keyword arguments.
 
-All non keyword argments become a tuple. In below example `phonenumber` is a tuple contains all the phone numbers. Remember the syntax the function definition should have `*phonenumber`
+All non keyword argments become a tuple. In below example `phonenumber` is a tuple contains all the phone numbers. Remember the syntax the function declaration should have `*phonenumber`. Default naming convention is `*args`
 
 All keyword arguments become a dictionary. In below example `info` is a dict.
-Remember the syntax the function definition should have `**info`
+Remember the syntax the function declaration should have `**info`. Default naming convention is `**kwargs`
 
 @[Unknown number of arguments]({"stubs": ["functions_varargs.py"], "command": "python3 functions_varargs.py"})
