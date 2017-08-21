@@ -5,3 +5,8 @@ You can dynamically respond to get instance attributes. python provides special 
 
 In the below example we are subclassing dict so that we can get elements as class attributes rather than with element accessor.
 @[Dynamic get attributes]({"stubs": ["dynamic_getattr.py"], "command": "python3 dynamic_getattr.py"})
+
+### Setting unknown instance attributes
+Extending the above example we can also set attributes using `__setattr__`. `__setattr__` gets called when there is no such attribute to set. We can implement it for our purpose.
+
+@[Dynamic set attributes]({"stubs": ["dynamic_setattr.py"], "command": "python3 dynamic_setattr.py"})
