@@ -13,4 +13,6 @@
 ## Course Content
 
 1. How to argue with functions
-2.
+2. Collections Module
+3. Dynamic Attributes
+4. Decorators
