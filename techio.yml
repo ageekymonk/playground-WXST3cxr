@@ -8,6 +8,8 @@ plan:
     statement: markdowns/functions.md
   - title: Collections Module
     statement: markdowns/collections.md
+  - title: Dynamic Attributes
+    statement: markdowns/dynamic_attributes.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
