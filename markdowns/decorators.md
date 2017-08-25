@@ -15,4 +15,4 @@ This implementataion of decorator has two problems.
 Functools module provide necessary wrapper to write your own custom decorator. `@wraps` takes care of writing all the boiler plate code
 for retaining the name of the function and docstring. This is an improvement on our earlier implementataion.
 
-@[Custom Decorator]({"stubs": ["functools_custom_decorators.py"], "command": "python3 functools_custom_decorator.py"})
+@[Custom Decorator]({"stubs": ["functools_custom_decorator.py"], "command": "python3 functools_custom_decorator.py"})
