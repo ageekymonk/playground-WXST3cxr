@@ -16,3 +16,4 @@
 2. Collections Module
 3. Dynamic Attributes
 4. Decorators
+5. functools Module

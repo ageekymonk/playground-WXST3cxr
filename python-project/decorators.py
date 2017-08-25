@@ -8,6 +8,9 @@ def debug_input_output(f):
 
 @debug_input_output
 def addressbook(name, **details):
+    """My addressbook"""
     return {'name': name, **details}
 
 addressbook('jason', age=40, address='unknown')
+print(addressbook.__name__)
+print(addressbook.__doc__)

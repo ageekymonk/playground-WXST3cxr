@@ -10,6 +10,10 @@ plan:
     statement: markdowns/collections.md
   - title: Dynamic Attributes
     statement: markdowns/dynamic_attributes.md
+  - title: Decorators
+    statement: markdowns/decorators.md
+  - title: Functools Module
+    statement: markdowns/functools.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
