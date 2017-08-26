@@ -14,6 +14,8 @@ plan:
     statement: markdowns/callables.md
   - title: Decorators
     statement: markdowns/decorators.md
+  - title: Slots for scaling
+    statement: markdowns/slots.md
   - title: Functools Module
     statement: markdowns/functools.md
 

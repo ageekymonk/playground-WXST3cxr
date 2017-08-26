@@ -17,4 +17,5 @@
 3. Dynamic Attributes
 4. Callables
 5. Decorators
-6. functools Module
+6. slots for scaling
+7. functools Module
