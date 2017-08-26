@@ -15,5 +15,6 @@
 1. How to argue with functions
 2. Collections Module
 3. Dynamic Attributes
-4. Decorators
-5. functools Module
+4. Callables
+5. Decorators
+6. functools Module
