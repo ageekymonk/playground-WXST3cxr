@@ -18,6 +18,8 @@ plan:
     statement: markdowns/slots.md
   - title: Functools Module
     statement: markdowns/functools.md
+  - title: Exec and Eval
+    statement: markdowns/exec_eval.md
 
 # Settings for your programming projects and the associated Docker images
 projects:

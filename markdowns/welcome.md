@@ -19,3 +19,4 @@
 5. Decorators
 6. slots for scaling
 7. functools Module
+8. Compile, Eval and Exec
