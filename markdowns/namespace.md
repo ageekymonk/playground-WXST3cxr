@@ -31,3 +31,13 @@ In below example we are modifying builtin function.
 
 `vars()` returns the local namespace. If it is called inside function it returns functions `__dict__`
 It also takes an argument which could be any object and returns its `__dict__` object.
+
+# Local Namespace
+This could be module or function or class. To get access to local namespace dict you can call `locals()`
+or if you want to access any object's namespace call `vars(objname)`.
+
+Inside function if you call `locals()` or `vars()` you will get currently visible namespace as dictionary and should not be modified.
+
+But inside class/module you get the object's `__dict__`. You can modify for fun and profit.
+
+@[Local Namespace]({"stubs": ["namespace_local.py"], "command": "python3 namespace_local.py"})
