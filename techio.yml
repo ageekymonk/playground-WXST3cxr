@@ -20,6 +20,9 @@ plan:
     statement: markdowns/functools.md
   - title: Exec and Eval
     statement: markdowns/exec_eval.md
+  - title: Namespace
+    statement: markdowns/namespace.md
+
 
 # Settings for your programming projects and the associated Docker images
 projects:
