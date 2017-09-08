@@ -16,7 +16,7 @@ def square(x):
 ```
 
 What if you want to find the type of the inherited object. using `type(something)` will not accomplish to check for parent class but `isinstance(something, parentclass)` will achieve it
-```
+```python runnable
 class A:
     pass
 
