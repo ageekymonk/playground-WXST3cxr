@@ -21,3 +21,4 @@
 7. functools Module
 8. Compile, Eval and Exec
 9. Python Namespace
+10. Introspection

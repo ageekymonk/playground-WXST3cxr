@@ -22,7 +22,8 @@ plan:
     statement: markdowns/exec_eval.md
   - title: Namespace
     statement: markdowns/namespace.md
-
+  - title: Introspection
+    statement: markdowns/introspection.md
 
 # Settings for your programming projects and the associated Docker images
 projects:
