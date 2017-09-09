@@ -8,6 +8,7 @@ Python allows caller to call a function by passing parameters with `parameter_na
 
 Calling a function with keyword arguments is a better approach because it improves code readibility. With keyword argument syntax you can pass parameters in any order.
 
+
 @[Better function call]({"stubs": ["functions.py"], "command": "python3 functions.py"})
 
 ## Unknown number of arguments
