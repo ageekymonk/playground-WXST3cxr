@@ -24,5 +24,3 @@ plan:
     statement: markdowns/namespace.md
   - title: Introspection
     statement: markdowns/introspection.md
-  - title: Multiple Inheritance
-    statement: markdowns/multiple_inheritance.md
