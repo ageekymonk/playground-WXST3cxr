@@ -29,8 +29,6 @@ x.funcB()
 ## Multiple Inheritance with overlapping methods
 If there are overlapping methods, the method of first parent class will be called. In the below example, since we added the class `Father` as the first argument in `class Son(Father, Mother)`, the method in class `Father` will be called. If it had been `class Son(Mother, Father)`  then method in class `Mother` will be called.
 
-This is simple as well.
-
 ```python runnable
 
 class Father:
@@ -57,7 +55,7 @@ To solve this python computes `mro`, method resolution order for a class. This c
 
 `super` follows the `mro` as well. It does not call the parent of a class. It calls next in line based mro.
 
-The algorithm used for computing the mro is C3 Linearization Algorithm. More details on the algorithm in https://www.python.org/download/releases/2.3/mro/
+The algorithm used for computing the mro is C3 Linearization Algorithm. More details on the algorithm in [mro](https://www.python.org/download/releases/2.3/mro/)
 
 ```python runnable
 class Adam:
