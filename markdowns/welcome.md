@@ -22,3 +22,4 @@
 8. Compile, Eval and Exec
 9. Python Namespace
 10. Introspection
+11. Multiple Inheritance
