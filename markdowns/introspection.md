@@ -16,6 +16,7 @@ def square(x):
 ```
 
 What if you want to find the type of the inherited object. using `type(something)` will not accomplish to check for parent class but `isinstance(something, parentclass)` will achieve it
+
 ```python runnable
 class A:
     pass
@@ -45,6 +46,7 @@ The above code is exactly how `isfunction` function in inspect module is impleme
 
 ## Inspecting the Function Signature
 You can inspect the function signature using the `inspect` module. you can use `__annotations__` attribute to get the annotations of a function.
+
 ```python runnable
 import types
 import inspect
@@ -63,6 +65,5 @@ print(square.__annotations__)
 ### Example: Using Introspection for Validating Parameters
 
 Below is an example where we use inspection to write a Decorator to validate if the passed parameters are of correct type.
-
 
 @[Function Introspection]({"stubs": ["introspection_validate.py"], "command": "python3 introspection_validate.py"})
