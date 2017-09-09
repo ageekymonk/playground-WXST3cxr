@@ -24,3 +24,10 @@ plan:
     statement: markdowns/namespace.md
   - title: Introspection
     statement: markdowns/introspection.md
+  - title: Multiple Inheritance
+    statement: markdowns/multiple_inheritance.md
+
+projects:
+  python:
+    root: /python-project
+    runner: python:3
