@@ -49,7 +49,7 @@ All non keyword argments become a tuple. In below example `phonenumber` is a tup
 All keyword arguments become a dictionary. In below example `info` is a dict.
 Remember the syntax the function declaration should have `**info`. Default naming convention is `**kwargs`
 
-```
+```python runnable
 def addressbook(name, *phonenumber, **info):
     print(f'Name: {name}')
     for idx, elem in enumerate(phonenumber):
